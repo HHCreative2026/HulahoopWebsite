@@ -1461,6 +1461,8 @@ a:hover {
             align-items: center;
             justify-content: center;
             z-index: 2000;
+            padding: 20px;
+            overflow-y: auto;
         }
 
         .modal-overlay.open {
@@ -1470,6 +1472,9 @@ a:hover {
         .modal-content {
             width: 92%;
             max-width: 500px;
+            max-height: 92vh;
+            margin: auto;
+            overflow-y: auto;
             background: rgba(16, 24, 39, 0.85);
             border: 1px solid rgba(255, 255, 255, 0.12);
             backdrop-filter: blur(25px);
